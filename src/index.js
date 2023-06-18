@@ -2,7 +2,6 @@ import refs from './refs'
 import { fetchBreeds, fetchCatByBreed, drawCatInfo, createOptions, onError } from './cat-api';
 
 
-
 fetchBreeds().then(data => {
     
     createOptions(data)
